@@ -1,0 +1,433 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+</style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+</style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+</style>
+
+
+
+
+
+/* =============== Global CSS Code Start ===============  */
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+/* =============== Global CSS Code End ===============  */
+
+
+.banner-part{
+    text-align: center;
+}
+
+.banner_heading h5 {
+    text-align: center;
+    justify-content: space-evenly;
+    color: #ffff;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.heading {
+    font-family: 'Berkshire Swash', cursive;
+
+}
+.big-heading{
+    font-family: 'Righteous', cursive;
+    font-size: 68px;
+    font-weight: 600;
+}
+
+
+
+.searchbox, .input-group.mb-3 {
+    width: 73%;
+    margin: 0px auto;
+}
+
+.btn-searching {
+    background: red;
+    border: 0;
+    padding: 15px 37px;
+    transition: 0.5s ease in;
+}
+
+.category-top {
+    width: 40%;
+    margin: -45px auto;
+    padding: 37px;
+    text-align: center;
+    background: #f7f7f7;
+    box-shadow: 1px 2px 1px #eee;
+    border-radius: 21px;
+}
+
+/*.category-top {
+    width: 50%;
+    margin: -45px auto;
+    padding: 37px;
+    text-align: center;
+    background: #f7f7f7;
+}*/
+.category-top span h3 {
+    background: #FFF2F2;
+    color: #F56A7D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 10px;
+    width: 50%;
+    margin: 0 auto 10px;
+}
+
+.category-top h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 39px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.category-bottom {
+    padding: 99px 106px;
+}
+.servicer-1{
+    text-align: center;
+}
+
+.servicer-1 h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 7px 0;
+}
+
+
+.fea-top, .blog-top{
+    text-align: center;
+}
+
+.fea-top h1, .blog-top h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.fea-top h5, .blog-top h5 {
+    font-size: 15;
+    font-weight: 500;
+}
+.blog-top span h3 {
+    background: #FFF2F2;
+    color: #F56A7D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 10px;
+    width: 50%;
+    margin: 0 auto 10px;
+}
+
+.blog-top h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 39px;
+    font-weight: 600;
+    padding: 54px 0;
+}
+
+.blog-img{
+    height: 200px;
+    position: relative;
+}
+
+.blog-btm {
+    padding: 0px 84px; 
+    text-align: center;
+}
+
+.tarikh {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #EF5D50;
+    color: #F56A7D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tarikhhh{
+    background: #EF5D50;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    width: 77px;
+    padding: 5px;
+}
+
+.tarikh1 {
+    position: absolute;
+    left: 525px;
+    bottom: -1644px;
+    background: #EF5D50;
+    color: #F56A7D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 5%;
+}
+
+.tarikh2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #EF5D50;
+    color: #F56A7D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tarikh h1, .tarikh1 h1, .tarikh2 h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 7px;
+}
+
+.blog-info{
+    text-align: left;
+}
+
+.blog-item .blog-info h4 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    line-height: 26px;
+}
+
+.btitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: #212529;
+    line-height: 26px;
+}
+
+.pera{
+    color: #777;
+}
+/* =============== All Books CSS Code Start ===============  */
+
+/* Card Part Design Start */
+
+.book-thumbnail{
+    position: relative;
+}
+
+.author-info {
+    position: absolute;    
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0px;
+    width: 100%;
+    color: #fff;    
+    text-align: center;
+
+}
+
+.book-item .book-info {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px #ccc; 
+}
+
+.book-item .book-info h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #378e00;
+    line-height: 26px;
+}
+
+.book-item .book-info .subtitle{
+    color: #333;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+}
+
+.book-item .book-info .quantity{
+    color: #333;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+.book-item .book-info .quantity span{
+    font-weight: 600;
+    color: #ff0000;
+}
+
+.book-item .book-info .book-btn{
+    position: relative;
+    overflow: hidden;
+    background: #333;
+    padding: 10px 40px;
+    display: block;
+    margin: 15px 0;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.book-item .book-info .book-btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background: #ff0000;
+    z-index: -1;
+    transition: all 0.4s ease-in-out;
+}
+
+.book-item .book-info .book-btn:hover::after {
+    left: 0;
+}
+/* Card Part Design End */
+
+/* =============== All Books CSS Code End ===============  */
+
+/* =============== Details Page CSS Code Start ===============  */
+
+/* Book Details part start  */
+.book_details h4{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.book_details .subtitle{
+    font=size: 15px;
+}
+
+.book_details .author-name {
+    color: #378e00;
+}
+
+.book_details .quantity{
+    color: blue;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+.book_details .quantity #quantityValue{
+    font-weight: 600;
+    color: #ff0000;
+}
+
+.book_details .book-btn{
+    position: relative;
+    overflow: hidden;
+    background: #333;
+    padding: 10px 40px;
+    display: block;
+    margin: 15px 0;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.book_details .book-btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background: #ff0000;
+    z-index: -1;
+    transition: all 0.4s ease-in-out;
+}
+
+.book_details .book-btn:hover::after {
+    left: 0;
+}
+/* Book Details part End  */
+
+/* =============== Details Page CSS Code End ===============  */
+
+/* =============== Search-option CSS Code Start ===============  */
+
+.search-option .book-btn{
+    position: relative;
+    overflow: hidden;
+    background: #333;
+    padding: 10px 40px;
+    display: block;
+    margin: 15px 0;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+    border: 0;
+    border-radius: 0;
+}
+
+.search-option .book-btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 100%;
+    background: #ff0000;
+    z-index: -1;
+    transition: all 0.4s ease-in-out;
+}
+
+.search-option .book-btn:hover::after {
+    left: 0;
+}
+
+
+.blog-part{
+    background: #fff;
+    padding: 33px;
+
+}
+
+.blog_details_search{
+    padding: 100px 0px;
+}
+
+.logo-ftr img{
+    margin-top: 65px;
+}
+
+
