@@ -16,6 +16,9 @@ About Us Page
 Blog Page
 ![image](https://github.com/shohanurrahman1/MULTIPLE_SERVICE/assets/108417996/1d5f3c9b-059c-4cf3-ac38-e077e49b9e6d)
 
+Blog Details
+![image](https://github.com/shohanurrahman1/MULTIPLE_SERVICE/assets/108417996/9b6406b3-c809-4585-be10-7578d5712033)
+
 Our Services
 ![image](https://github.com/shohanurrahman1/MULTIPLE_SERVICE/assets/108417996/5391e848-c377-4eb2-8be7-5f4d9222f39f)
 
