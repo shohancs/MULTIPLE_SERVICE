@@ -46,11 +46,11 @@
       </div>
     </div>
 
-        <div class="row" style="padding: 0px 103px;">
+        <div class="row align-items-center" style="padding: 0px 103px;">
           <div class="col-lg-4">
-            <img src="assets/images/we.png" alt="" style="border-radius: 50%;width: 390px;height: 390px;">
+            <img src="assets/images/IMG_20230908_125224.jpg" alt="" style="border-radius: 10px ;width: 100%;">
           </div>
-          <div class="col-lg-8" style="padding: 0px 86px;">
+          <div class="col-lg-8" style="padding: 0px 36px;">
             <h5 style="text-transform: uppercase; font-weight: 600; font-size: 15px;">Our People</h5>
             <h2 class="py-3" style="font-weight: 600; text-transform: capitalize;">Creating a Community for impact</h2>
             <p style=" color: #777777e3; text-align: justify;">Our service is backed by a dedicated and skilled team of developers who are passionate about crafting exceptional digital experiences. Our developer team consists of highly trained professionals with diverse expertise, from front-end wizards who ensure an intuitive user interface to back-end architects who guarantee the reliability and security of our platform. We pride ourselves on fostering innovation, staying at the forefront of technology, and continuously improving our services. With a collaborative spirit and a commitment to excellence, our developer team is always working diligently to bring you the latest features and enhancements, ensuring that Three S service remains a cutting-edge solution you can rely on.</p>
